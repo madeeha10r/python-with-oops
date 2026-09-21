@@ -1,0 +1,20 @@
+class vehicle:
+    def brand(self):
+        print("BMW")
+    def model(self):
+        print("BMWA123")
+    def display_details():
+        print("abd")
+class car(vehicle):
+    def color(self):
+        print("blue")
+class bike(vehicle):
+    def speed(self):
+        print("100")
+v=vehicle()
+v.brand()
+v.model()
+c=car()
+b=bike()
+c.color()
+b.speed()
